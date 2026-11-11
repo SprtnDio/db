@@ -12,14 +12,15 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 72649465
-    size_str: 69 MiB
+    size: 64893968
+    size_str: 61 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/icon.png
 image: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/banner.png
 image_length: 66499
 layout: app
+llm_generation: unknown
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/gameplay-1.png
@@ -34,7 +35,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 677
+stars: 870
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
@@ -47,11 +48,15 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>Vril (PSP/3DS/NSPIRE Engine)</li>
+  <li>Game Assets</li>
+
+  <li>Vril (Engine)</li>
 
   </ul>
 
-  <p dir="auto">Installation Instructions:</p>
+  <p dir="auto">**If you are looking for Co-Op enabled FTEQW builds, see: <a href="https://github.com/nzp-team/fteqw/releases/tag/legacy">https://github.com/nzp-team/fteqw/releases/tag/legacy</a><br>
+
+  Installation Instructions:</p>
 
   <ul dir="auto">
 
@@ -65,7 +70,18 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   and launch with Homebrew Launcher. Requires extra memory, so make sure to open HBLauncher
   by holding ''R'' over an installed title!</li>
 
-  <li>PS VITA: Extract the .ZIP archive into ux0: and install <code class="notranslate">nzp.vpk</code>.</li>
+  <li>PS VITA: Extract <code class="notranslate">nzp.zip</code> into ux0:data/ and
+  install <code class="notranslate">nzportable.vpk</code>.</li>
+
+  <li>PS2: Place <code class="notranslate">nzportable.elf</code> on a USB, Memory
+  Card, HDD. Copy game data to <code class="notranslate">/APPS/NZPORTABLE/</code>
+  in the same media.</li>
+
+  <li>Xbox: Extract the <code class="notranslate">nzportable</code> folder into <code
+  class="notranslate">&lt;drive&gt;/Games/</code> and launch <code class="notranslate">default.xbe</code>.</li>
+
+  <li>PS4: Install <code class="notranslate">nzportable.pkg</code> and copy game data
+  to <code class="notranslate">/data/nzportable/</code>.</li>
 
   <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code>.</li>
 
@@ -76,9 +92,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2026-03-21T07:39:15Z'
+updated: '2026-11-08T16:44:45Z'
 version: nightly
-version_title: 2.0.0-indev+20260321073756
+version_title: 2.0.0-indev+20261108164322
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
@@ -86,3 +102,14 @@ A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at Wa
 Feature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented, with minor parity differences. Most World at War maps and their gimmicks are not yet represented. Minor features from Call of Duty: Black Ops are also present.
 
 Features "Nacht der Untoten" and many maps created by the Community, bundled in.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>nzportable-3ds.zip</summary>
+<ol>
+<li>Download <code>nzportable-3ds.zip</code></li>
+<li>Extract everything from the zip to <code>/3ds/</code> on your SD card</li>
+</ol>
+</details>
+

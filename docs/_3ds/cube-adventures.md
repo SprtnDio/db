@@ -1,5 +1,5 @@
 ---
-author: xXHighTideXx
+author: HiggyTiggy
 avatar: https://avatars.githubusercontent.com/u/84487860?v=4
 categories:
 - game
@@ -15,10 +15,11 @@ downloads:
     url: https://github.com/TheHighTide/CubeAdventures/releases/download/0.1.0/CubeAdventures.3dsx
 github: TheHighTide/CubeAdventures
 image: https://avatars.githubusercontent.com/u/84487860?v=4&size=128
-image_length: 37171
+image_length: 37544
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
+llm_generation: unknown
 source: https://github.com/TheHighTide/CubeAdventures
 stars: 2
 systems:

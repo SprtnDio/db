@@ -16,8 +16,9 @@ downloads:
     url: https://github.com/AzizBgBoss/MicroCityNDS/releases/download/v1.0/MicroCityNDS.nds
 github: AzizBgBoss/MicroCityNDS
 image: https://avatars.githubusercontent.com/u/83554824?v=4&size=128
-image_length: 29184
+image_length: 29892
 layout: app
+llm_generation: unknown
 qr:
   MicroCityNDS.nds: https://db.universal-team.net/assets/images/qr/microcitynds-nds.png
 source: https://github.com/AzizBgBoss/MicroCityNDS

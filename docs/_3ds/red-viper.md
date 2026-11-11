@@ -10,18 +10,19 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 669948
-    size_str: 654 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.5/red-viper.3dsx
+    size: 681280
+    size_str: 665 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.4/red-viper.3dsx
   red-viper.cia:
-    size: 697280
-    size_str: 680 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.5/red-viper.cia
+    size: 701376
+    size_str: 684 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.4/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
 image_length: 6527
 layout: app
+llm_generation: unknown
 qr:
   red-viper.cia: https://db.universal-team.net/assets/images/qr/red-viper-cia.png
 screenshots:
@@ -34,20 +35,21 @@ screenshots:
 - description: Warioland
   url: https://db.universal-team.net/assets/images/screenshots/red-viper/warioland.png
 source: https://github.com/skyfloogle/red-viper
-stars: 1010
+stars: 1047
 systems:
 - 3DS
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<ul dir="auto">
-
-  <li>Fixed an issue causing slowdown in Innsmouth no Yakata, among others</li>
-
-  </ul>'
-updated: '2026-01-30T18:32:21Z'
-version: v1.2.5
-version_title: v1.2.5
+update_notes: <p dir="auto">This release fixes a graphical issue with Virtual Bowling
+  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5508779925"
+  data-permission-text="Title is private" data-url="https://github.com/skyfloogle/red-viper/issues/111"
+  data-hovercard-type="issue" data-hovercard-url="/skyfloogle/red-viper/issues/111/hovercard"
+  href="https://github.com/skyfloogle/red-viper/issues/111">#111</a>), introduced
+  in v1.3.3.</p>
+updated: '2026-09-19T14:58:23Z'
+version: v1.3.4
+version_title: v1.3.4
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.

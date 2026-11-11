@@ -10,37 +10,37 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9791536
+    size: 10274416
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.0/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.2/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 9970624
+    size: 10437568
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.0/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.2/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+llm_generation: unknown
 prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.1
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.3
   downloads:
     TJAP_3DS.3dsx:
-      size: 9791756
+      size: 10274992
       size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.3dsx
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.3/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 9970624
+      size: 10437568
       size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.cia
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.3/TJAP_3DS.cia
   qr:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
   update_notes: '<h2 dir="auto">チェンジログ</h2>
 
     <ul dir="auto">
 
-    <li><code class="notranslate">#JPOSSCROLL (Travel_time(float)) (position(int))
-    (direction(int))</code>の実装が完了しました。</li>
+    <li>段位道場において個別条件の対応</li>
 
     </ul>
 
@@ -48,22 +48,20 @@ prerelease:
 
     <ul dir="auto">
 
-    <li>The implementation of <code class="notranslate">#JPOSSCROLL (Travel_time(float))
-    (position(int)) (direction(int))</code> is complete.</li>
+    <li>Handling individual conditions at Dan-i Dojo</li>
 
     </ul>'
   update_notes_md: '## チェンジログ
 
-    - `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`の実装が完了しました。
+    - 段位道場において個別条件の対応
 
 
     ## Changelog
 
-    - The implementation of `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`
-    is complete.'
-  updated: '2026-03-30T07:04:57Z'
-  version: v2.2.1
-  version_title: TJAPlayer for 3DS v2.2.1
+    - Handling individual conditions at Dan-i Dojo'
+  updated: '2026-11-09T11:35:32Z'
+  version: v2.4.3
+  version_title: TJAPlayer for 3DS v2.4.3
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -72,7 +70,7 @@ screenshots:
 - description: Gameplay 2
   url: https://db.universal-team.net/assets/images/screenshots/tjap_3ds/gameplay-2.png
 source: https://github.com/LuMariGames/TJAP_3DS
-stars: 12
+stars: 16
 systems:
 - 3DS
 title: TJAP_3DS
@@ -82,27 +80,17 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>風船音符の終了が正しく処理されない不具合の改善</li>
+  <li>判定調整の実装<br>
 
-  <li><code class="notranslate">#GOGOSTART</code>や<code class="notranslate">#GOGOEND</code>でフリーズする可能性のある不具合を修正</li>
+  判定枠はそのままに、判定位置を移動させる機能です。<br>
 
-  <li>文字コード変換時に「～」が正しく変換されていなかったのを修正</li>
+  マイナス方向に移動すると遅く叩けば良判定になり、プラス方向に移動すると早く叩けば良判定になります。<br>
 
-  <li>でんでん音符の出現文字を''D''から''P''に変更しました。</li>
+  (但しHBSCROLLの譜面を遊ぶ際は、安定性の為リセットされます。)</li>
 
-  <li>代わりに''D''は時限爆弾音符が登場します。<br>
+  <li>複素数スクロールに関する機能強化<br>
 
-  時限爆弾音符は、連打の終点が来るまでに指定した打数ドンを叩かないと不可判定になります。</li>
-
-  <li><code class="notranslate">BGIMG:</code>タグが機能して無かったのを修正</li>
-
-  <li>譜面の最大行数が8192行から16384行に拡張しました。</li>
-
-  <li>一部演出の追加</li>
-
-  <li>本体をスリープモードに移行しない様にしました。(2026/03/30追記)<br>
-
-  これにより、イヤホン等を挿した状態でAUTOで聴く事が可能になります。</li>
+  小節線が縦のスクロールに対応しました。</li>
 
   </ul>
 
@@ -110,38 +98,27 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Improvement of the problem that the end of the balloon note is not processed
-  correctly</li>
+  <li>Implementation of Judge Adjustment<br>
 
-  <li>Fixed a bug that could cause the game to freeze when using <code class="notranslate">#GOGOSTART</code>
-  or <code class="notranslate">#GOGOEND</code>.</li>
+  This function allows you to move the Judge position while keeping the Judge frame
+  the same.<br>
 
-  <li>Fixed "～" not being converted correctly when converting character codes.</li>
+  Moving it in the negative direction will result in a GOOD judgment if you hit it
+  slowly,<br>
 
-  <li>The letter that appears for denden notes has been changed from ''D'' to ''P''.</li>
+  and moving it in the positive direction will result in a GOOD judgment if you hit
+  it quickly.<br>
 
-  <li>Instead of ''D'', a Time Bomb note will appear.<br>
+  (However, when playing HBSCROLL charts, the settings will be reset for stability.)</li>
 
-  The Time Bomb note will be considered impossible if the specified number of don
-  strokes are not hit before the end of the Roll.</li>
+  <li>Enhanced functionality for complex number scrolling<br>
 
-  <li>Fixed an issue where the <code class="notranslate">BGIMG:</code> tag was not
-  working.</li>
-
-  <li>The maximum number of lines in a musical score has been increased from 8192
-  to 16384.</li>
-
-  <li>The device will no longer enter sleep mode. (Added 2026/03/30)<br>
-
-  This makes it possible to listen in AUTO mode even with earphones or other devices
-  plugged in.</li>
-
-  <li>Addition of some productions</li>
+  Bar lines now support vertical scrolling.</li>
 
   </ul>'
-updated: '2026-03-02T03:04:53Z'
-version: v2.2.0
-version_title: TJAPlayer for 3DS v2.2.0
+updated: '2026-10-29T01:15:43Z'
+version: v2.4.2
+version_title: TJAPlayer for 3DS v2.4.2
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。

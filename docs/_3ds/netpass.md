@@ -1,6 +1,6 @@
 ---
 author: NetPass
-avatar: https://gitlab.com/uploads/-/system/project/avatar/56839786/icon.png
+avatar: https://gitlab.com//uploads/-/system/group/avatar/87104415/icon.png?v=1716030859
 categories:
 - utility
 color: '#87d6c8'
@@ -10,34 +10,35 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 7792556
+    size: 8276192
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/f96538a22e30229075d9c81fb0b7f1d6361eeffa/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/79cc4033b16a4c9772f9541fa4031159ebff9241/netpass.3dsx?inline=false
   netpass.cia:
-    size: 7881664
+    size: 8287168
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/f96538a22e30229075d9c81fb0b7f1d6361eeffa/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/79cc4033b16a4c9772f9541fa4031159ebff9241/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image_length: 2983
 layout: app
-license: gpl-3.0
+license: gpl-3.0+
 license_name: GNU General Public License v3.0 or later
+llm_generation: 'no'
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass
-stars: 69
+stars: 82
 systems:
 - 3DS
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: " - store nid_password on the sd card\n - make sure font scaling for\
-  \ chineese (simplified + traditional) and korean fonts work properly"
-updated: '2026-03-31T05:01:07.157Z'
-version: v2.0.1
-version_title: v2.0.1
+update_notes: <p data-sourcepos="1:1-1:35" dir="auto">Fix polish text if your mii
+  is male</p>
+updated: '2026-11-08T13:42:24.847Z'
+version: v2.1.4
+version_title: v2.1.4
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world

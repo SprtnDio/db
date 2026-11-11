@@ -27,20 +27,21 @@ downloads:
     url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.3/bootstrap.cia
 github: YANBForwarder/YANBF
 image: https://avatars.githubusercontent.com/u/103953989?v=4&size=128
-image_length: 1561
+image_length: 3290
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-qr:
-  bootstrap.cia: https://db.universal-team.net/assets/images/qr/bootstrap-cia.png
-script_message: 'You will need to generate the actual forwarders on your computer.
+llm_generation: 'no'
+preinstall_message: 'You will need to generate the actual forwarders on your computer.
 
 
   See the README for more information:
 
   https://github.com/YANBForwarder/YANBF'
+qr:
+  bootstrap.cia: https://db.universal-team.net/assets/images/qr/bootstrap-cia.png
 source: https://github.com/YANBForwarder/YANBF
-stars: 232
+stars: 256
 systems:
 - 3DS
 title: YANBF
@@ -80,3 +81,19 @@ version: v1.6.3
 version_title: 'v1.6.3: yo my server died'
 ---
 YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>YANBF forwarder pack</summary>
+<ol>
+<li>Download <code>bootstrap.cia</code> to <code>/cias/bootstrap.cia</code> on your SD card</li>
+<li>Download <code>DS.Game.Forwarder.pack.nds-bootstrap.7z</code></li>
+<li>Extract the contents of <code>/for SD Card root/</code> from the 7z to the root of your SD card</li>
+<li>Download <code>apfix.pck</code> to <code>/_nds/ntr-forwarder/apfix.pck</code> on your SD card</li>
+<li>Download <code>widescreen.pck</code> to <code>/_nds/ntr-forwarder/widescreen.pck</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/bootstrap.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

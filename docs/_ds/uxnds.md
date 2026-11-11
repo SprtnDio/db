@@ -9,10 +9,10 @@ created: '2021-05-18T19:23:58Z'
 description: NDS/3DS fork/port of the uxn/Varvara virtual machine
 download_page: https://github.com/asiekierka/uxnds/releases
 downloads:
-  uxnds053.zip:
-    size: 521512
-    size_str: 509 KiB
-    url: https://github.com/asiekierka/uxnds/releases/download/v0.5.3/uxnds053.zip
+  uxnds060.zip:
+    size: 523244
+    size_str: 510 KiB
+    url: https://github.com/asiekierka/uxnds/releases/download/v0.6.0/uxnds060.zip
 github: asiekierka/uxnds
 icon: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
@@ -20,27 +20,48 @@ image_length: 224
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 source: https://github.com/asiekierka/uxnds
-stars: 169
+stars: 179
 systems:
 - 3DS
 - DS
 title: uxnds
 update_notes: '<ul dir="auto">
 
-  <li>[3DS] Update libctru to 2.4.1.</li>
+  <li>[3DS] Update libctru to 2.7.1.</li>
 
-  <li>[NDS] Update BlocksDS to 1.9.0.</li>
+  <li>[NDS] Update BlocksDS to 1.24.0.</li>
 
-  <li>Synchronize <code class="notranslate">file</code> peripheral implementation
-  with upstream.</li>
+  <li>Major Uxn core optimizations - performance increased by as much as 15% in some
+  situations!</li>
+
+  <li>Bring virtual machine closer to Varvara 79K:
+
+  <ul dir="auto">
+
+  <li>File/stat directory readouts now use the tab spacer.</li>
+
+  <li>Fix partial File/stat readouts.</li>
+
+  <li>Screen/pixel now takes into account X/Y flip bits for auto-increment.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fix handling of JSRr/kr/2r/2kr, NIPkr, STR2kr Uxn opcodes.</li>
+
+  <li>Fix return code for File/delete.</li>
+
+  <li>Fix writing to System/wst.</li>
 
   <li>Update bundled Uxn applications.</li>
 
   </ul>'
-updated: '2025-03-30T12:09:54Z'
-version: v0.5.3
-version_title: uxnds 0.5.3
+updated: '2026-11-05T15:19:37Z'
+version: v0.6.0
+version_title: uxnds 0.6.0
 website: https://100r.co/site/uxn.html
 wiki: https://wiki.xxiivv.com/site/uxn.html
 ---
@@ -70,3 +91,40 @@ There are three binaries provided:
 - uxnds.nds - faster, but best used only with known-good software,
 - uxnds_debug.nds - slower, but provides debugging information, profiling information and performs CPU stack bounds checks.
 - uxnds_profile.nds - almost as fast as uxnds.nds - with debugging/profiling information, no CPU stack bounds checks.
+
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>uxnds.3dsx</summary>
+<ol>
+<li>Download <code>uxndsd+.zip</code></li>
+<li>Extract <code>/uxnds.3dsx</code> from the zip to <code>/3ds/uxnds.3dsx</code> on your SD card</li>
+<li>Extract <code>/uxn</code> from the zip to <code>/uxn</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>uxnds.nds</summary>
+<ol>
+<li>Download <code>uxndsd+.zip</code></li>
+<li>Extract <code>/uxnds.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/uxn</code> from the zip to <code>/uxn</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>uxnds_debug.nds</summary>
+<ol>
+<li>Download <code>uxndsd+.zip</code></li>
+<li>Extract <code>/uxnds_debug.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/uxn</code> from the zip to <code>/uxn</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>uxnds_profile.nds</summary>
+<ol>
+<li>Download <code>uxndsd+.zip</code></li>
+<li>Extract <code>/uxnds_profile.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/uxn</code> from the zip to <code>/uxn</code> on your SD card</li>
+</ol>
+</details>
+

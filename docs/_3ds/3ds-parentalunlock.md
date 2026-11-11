@@ -15,10 +15,11 @@ downloads:
     url: https://github.com/MechanicalDragon0687/3DS-ParentalUnlock/releases/download/1.0.1/ParentalUnlock.3dsx
 github: MechanicalDragon0687/3DS-ParentalUnlock
 image: https://avatars.githubusercontent.com/u/43786828?v=4&size=128
-image_length: 10211
+image_length: 10281
 layout: app
+llm_generation: 'no'
 source: https://github.com/MechanicalDragon0687/3DS-ParentalUnlock
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: 3DS-ParentalUnlock

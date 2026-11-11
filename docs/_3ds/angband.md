@@ -13,111 +13,155 @@ downloads: {}
 github: angband/angband
 icon: https://github.com/angband.png?size=48
 image: https://github.com/angband.png
-image_length: 3366
+image_length: 3824
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-85-g97268df5b
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-270-g42cd156ac
   downloads:
-    Angband-4.2.6-85-g97268df5b-3ds.zip:
-      size: 24671406
+    Angband-4.2.6-270-g42cd156ac-3ds.zip:
+      size: 24695299
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-85-g97268df5b/Angband-4.2.6-85-g97268df5b-3ds.zip
-    Angband-4.2.6-85-g97268df5b-nds.zip:
-      size: 23331043
+      url: https://github.com/angband/angband/releases/download/4.2.6-270-g42cd156ac/Angband-4.2.6-270-g42cd156ac-3ds.zip
+    Angband-4.2.6-270-g42cd156ac-nds.zip:
+      size: 23331838
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-85-g97268df5b/Angband-4.2.6-85-g97268df5b-nds.zip
-  update_notes: '<h2 dir="auto">What''s Changed</h2>
+      url: https://github.com/angband/angband/releases/download/4.2.6-270-g42cd156ac/Angband-4.2.6-270-g42cd156ac-nds.zip
+  update_notes: '<p dir="auto">The Windows executable in this release requires Windows
+    Vista rather than Windows XP.</p>
+
+    <h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Remove out-of-date comment about numeric SVALs in tile preference files by
-    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>Borg: resume handling combat messages after knockout by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4128726182" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6551"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6551/hovercard"
-    href="https://github.com/angband/angband/pull/6551">#6551</a></li>
+    data-id="6234158076" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6808"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6808/hovercard"
+    href="https://github.com/angband/angband/pull/6808">#6808</a></li>
 
-    <li>Adam Bolt''s tiles:  add new assignments for existing, unused tiles by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>Borg: choose the safer item when checking emergency swaps <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
+    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/bc67c099e32e26b5fdcbafecfae20326345dcb3c/hovercard"
+    href="https://github.com/angband/angband/commit/bc67c099e32e26b5fdcbafecfae20326345dcb3c"><tt>bc67c09</tt></a></li>
+
+    <li>win(enhancement): show character level and status in open dialog by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4109642633" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6548"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6548/hovercard"
-    href="https://github.com/angband/angband/pull/6548">#6548</a></li>
+    data-id="6172364343" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6804"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6804/hovercard"
+    href="https://github.com/angband/angband/pull/6804">#6804</a></li>
 
-    <li>SDL2: in details dialog, split version line in two by <a class="user-mention
+    <li>Separate use of TERM_XTRA_CLEAR from total_erase by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4129796786" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6552"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6552/hovercard"
-    href="https://github.com/angband/angband/pull/6552">#6552</a></li>
+    data-id="6122271481" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6798"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6798/hovercard"
+    href="https://github.com/angband/angband/pull/6798">#6798</a></li>
 
-    <li>Correct edges of the Diagonal 1 interesting room by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4137834552" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6553"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6553/hovercard"
-    href="https://github.com/angband/angband/pull/6553">#6553</a></li>
-
-    <li>Correct doors line for Comb right room template by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4138056601" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6554"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6554/hovercard"
-    href="https://github.com/angband/angband/pull/6554">#6554</a></li>
-
-    <li>stats frontend:  avoid crash during cleanup by <a class="user-mention notranslate"
+    <li>Tidy the ordering of the object files by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4138982938" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6556"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6556/hovercard"
-    href="https://github.com/angband/angband/pull/6556">#6556</a></li>
+    data-id="6128049251" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6800"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6800/hovercard"
+    href="https://github.com/angband/angband/pull/6800">#6800</a></li>
 
-    <li>stats frontend: add options to set player''s class and race by <a class="user-mention
+    <li>Clear state from interrupted rest in textui_cmd_rest() by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4139152893" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6557"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6557/hovercard"
-    href="https://github.com/angband/angband/pull/6557">#6557</a></li>
+    data-id="6129512202" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6801"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6801/hovercard"
+    href="https://github.com/angband/angband/pull/6801">#6801</a></li>
+
+    <li>Mark commands used to continue a rest as background commands by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6129738456" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6802"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6802/hovercard"
+    href="https://github.com/angband/angband/pull/6802">#6802</a></li>
+
+    <li>Flush command queue when deep descent triggers by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6173486683" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6805"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6805/hovercard"
+    href="https://github.com/angband/angband/pull/6805">#6805</a></li>
+
+    <li>Have player_timed.txt configure which effects a complete rest checks for by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6175258881" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6806"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6806/hovercard"
+    href="https://github.com/angband/angband/pull/6806">#6806</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-78-g4ce58ed04...4.2.6-85-g97268df5b"><tt>4.2.6-78-g4ce58ed04...4.2.6-85-g97268df5b</tt></a></p>'
-  update_notes_md: '## What''s Changed
+    <h2 dir="auto">New Contributors</h2>
 
-    * Remove out-of-date comment about numeric SVALs in tile preference files by @backwardsEric
-    in https://github.com/angband/angband/pull/6551
+    <ul dir="auto">
 
-    * Adam Bolt''s tiles:  add new assignments for existing, unused tiles by @backwardsEric
-    in https://github.com/angband/angband/pull/6548
+    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
+    made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="6234158076" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6808"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6808/hovercard"
+    href="https://github.com/angband/angband/pull/6808">#6808</a></li>
 
-    * SDL2: in details dialog, split version line in two by @backwardsEric in https://github.com/angband/angband/pull/6552
+    </ul>
 
-    * Correct edges of the Diagonal 1 interesting room by @backwardsEric in https://github.com/angband/angband/pull/6553
-
-    * Correct doors line for Comb right room template by @backwardsEric in https://github.com/angband/angband/pull/6554
-
-    * stats frontend:  avoid crash during cleanup by @backwardsEric in https://github.com/angband/angband/pull/6556
-
-    * stats frontend: add options to set player''s class and race by @backwardsEric
-    in https://github.com/angband/angband/pull/6557
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-258-ge473720ed...4.2.6-270-g42cd156ac"><tt>4.2.6-258-ge473720ed...4.2.6-270-g42cd156ac</tt></a></p>'
+  update_notes_md: 'The Windows executable in this release requires Windows Vista
+    rather than Windows XP.
 
 
+    ## What''s Changed
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-78-g4ce58ed04...4.2.6-85-g97268df5b'
-  updated: '2026-03-31T12:24:48Z'
-  version: 4.2.6-85-g97268df5b
-  version_title: 4.2.6-85-g97268df5b
+    * Borg: resume handling combat messages after knockout by @diegoami in https://github.com/angband/angband/pull/6808
+
+    * Borg: choose the safer item when checking emergency swaps @diegoami in https://github.com/angband/angband/commit/bc67c099e32e26b5fdcbafecfae20326345dcb3c
+
+    * win(enhancement): show character level and status in open dialog by @klaasvanaarsen
+    in https://github.com/angband/angband/pull/6804
+
+    * Separate use of TERM_XTRA_CLEAR from total_erase by @backwardsEric in https://github.com/angband/angband/pull/6798
+
+    * Tidy the ordering of the object files by @backwardsEric in https://github.com/angband/angband/pull/6800
+
+    * Clear state from interrupted rest in textui_cmd_rest() by @backwardsEric in
+    https://github.com/angband/angband/pull/6801
+
+    * Mark commands used to continue a rest as background commands by @backwardsEric
+    in https://github.com/angband/angband/pull/6802
+
+    * Flush command queue when deep descent triggers by @backwardsEric in https://github.com/angband/angband/pull/6805
+
+    * Have player_timed.txt configure which effects a complete rest checks for by
+    @backwardsEric in https://github.com/angband/angband/pull/6806
+
+
+    ## New Contributors
+
+    * @diegoami made their first contribution in https://github.com/angband/angband/pull/6808
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-258-ge473720ed...4.2.6-270-g42cd156ac'
+  updated: '2026-11-10T14:39:56Z'
+  version: 4.2.6-270-g42cd156ac
+  version_title: 4.2.6-270-g42cd156ac
 source: https://github.com/angband/angband
-stars: 1497
+stars: 1582
 systems:
 - 3DS
 - DS
@@ -227,3 +271,33 @@ version: 4.2.6
 version_title: Release 4.2.6
 ---
 Angband is a graphical dungeon adventure game that uses textual characters to represent the walls and floors of a dungeon and the inhabitants therein, in the vein of games like NetHack and Rogue. If you need help in-game, press ?.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-270-g42cd156ac.3dsx</summary>
+<ol>
+<li>Download <code>Angband-4.2.6-270-g42cd156ac-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-270-g42cd156ac.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-270-g42cd156ac.3dsx</code> on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-270-g42cd156ac.cia</summary>
+<ol>
+<li>Download <code>Angband-4.2.6-270-g42cd156ac-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-270-g42cd156ac.cia</code> from the zip to <code>/cias/Angband-4.2.6-270-g42cd156ac.cia</code> on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-270-g42cd156ac.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-270-g42cd156ac.nds</summary>
+<ol>
+<li>Download <code>Angband-4.2.6-270-g42cd156ac-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-270-g42cd156ac.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
+</ol>
+</details>
+

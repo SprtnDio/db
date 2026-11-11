@@ -12,52 +12,42 @@ description: An Emulator for the DS/DSi with support for Colecovision, ADAM, MSX
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1480192
+    size: 1480704
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.1/ColecoDS.nds
   README.md:
-    size: 57923
-    size_str: 56 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9/README.md
+    size: 59073
+    size_str: 57 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.1/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.1/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
 image_length: 15870
 layout: app
+llm_generation: unknown
 qr:
   ColecoDS.nds: https://db.universal-team.net/assets/images/qr/colecods-nds.png
 source: https://github.com/wavemotion-dave/ColecoDS
-stars: 59
+stars: 63
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V10.9: 12-Sep-2025 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V11.1: 22-Oct-2026 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added SLIDE-N-GLIDE joystick handling for improved cornering in maze/ladder
-  games.</li>
+  <li>Hotfix for DS-Lite/Phat save of configuration and save states. Compression algorithm
+  could run out of memory!</li>
 
-  <li>Added ''DEFINE KEYS'' to the DS Mini-Menu so you can change keys in-game.</li>
-
-  <li>New Adam memory configurations to cover 64K up to 1MB</li>
-
-  <li>Added compression of save/load states for improved SD utilization.</li>
-
-  <li>Added compression of config file for improved SD utilization and increased number
-  of available config slots (2300)</li>
-
-  <li>Improved high score file handling so we don''t waste as much memory and increased
-  the number of available HS slots to 1500.</li>
-
-  <li>Lots of minor cleanup and improvements under the hood as time permitted.</li>
+  <li>Built-in patch for the buggy Star Force included and should be automatically
+  applied.</li>
 
   </ul>'
-updated: '2025-09-12T10:55:49Z'
-version: '10.9'
-version_title: Version 10.9
+updated: '2026-10-22T22:18:21Z'
+version: '11.1'
+version_title: Version 11.1
 ---
