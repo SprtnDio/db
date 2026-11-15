@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 1690788
+    size: 1365700
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -42,19 +42,25 @@ update_notes: '<div class="markdown-alert markdown-alert-important" dir="auto"><
 
   <blockquote>
 
-  <p dir="auto">Latest change: 11/05/2026</p>
+  <p dir="auto">Latest change: 11/13/2026</p>
 
   </blockquote>
 
   <ul dir="auto">
 
-  <li>Pause Online now only works during live view to combat desync issues mid-race</li>
+  <li>Optimized the 3gx plugin size from 1.6 MB down to 1.3 MB</li>
 
-  <li>Reworked how DNF works to combat desync issues after a race has ended</li>
+  <li>Added a better options menu (Mario Kart Channel &gt; Options Menu)</li>
 
-  <li>Moved Luma 3ds CFW support from v13.4.0 to <a href="https://github.com/LumaTeam/Luma3DS/releases/tag/v13.5">v13.5.0</a></li>
+  <li>Added a new boot logo to make it easier to tell if the project is running</li>
 
-  <li>Other minor bug fixes and improvements</li>
+  <li>Added toggle notices to the time trials ghost page for easier navigation</li>
+
+  <li>Reworked the inner workings of the plugin to fix several bugs and issues</li>
+
+  <li>Reworked the online time trials waiting phase, it now shows who is waiting</li>
+
+  <li>Custom music now gets auto disabled for time trial runs (only normal ones)</li>
 
   </ul>
 
@@ -63,14 +69,11 @@ update_notes: '<div class="markdown-alert markdown-alert-important" dir="auto"><
   0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8
   8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75
   0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75
-  0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p dir="auto">A
-  new <a href="https://discord.gg/mW9v4zvtMC" rel="nofollow">community discord server</a>
-  was created<br>
-
-  Make sure to join it for any reports or updates</p>
+  0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p dir="auto">Join
+  our <strong><a href="https://discord.gg/mW9v4zvtMC" rel="nofollow">Discord Server</a></strong></p>
 
   </div>'
-updated: '2026-11-05T15:54:52Z'
+updated: '2026-11-13T01:43:06Z'
 version: latest
 version_title: v1.0.0
 ---

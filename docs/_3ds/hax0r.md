@@ -32,8 +32,8 @@ update_notes: '<p dir="auto">Welp I messed up after Love Potion updated.</p>
 
   <p dir="auto">Included are a 3dsx version <em>and</em> cia version!</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/be3abb0b6f0307f1d896f84581b4dfb96b2bf026fdbc32049a7db0d4cacdeddd/687474703a2f2f74696e7975726c2e636f6d2f4861783072434941"><img
-  src="https://camo.githubusercontent.com/be3abb0b6f0307f1d896f84581b4dfb96b2bf026fdbc32049a7db0d4cacdeddd/687474703a2f2f74696e7975726c2e636f6d2f4861783072434941"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/64ffa975ec0b8dbf325789df7fd38526e1e85500d63a92f850a285817bf5c4b1/687474703a2f2f74696e7975726c2e636f6d2f4861783072434941"><img
+  src="https://camo.githubusercontent.com/64ffa975ec0b8dbf325789df7fd38526e1e85500d63a92f850a285817bf5c4b1/687474703a2f2f74696e7975726c2e636f6d2f4861783072434941"
   alt="" data-canonical-src="http://tinyurl.com/Hax0rCIA" style="max-width: 100%;"></a></p>'
 updated: '2016-07-07T19:36:27Z'
 version: v1.2
