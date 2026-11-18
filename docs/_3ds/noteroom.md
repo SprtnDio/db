@@ -2,11 +2,12 @@
 author: SprtnDio
 avatar: https://avatars.githubusercontent.com/u/183821772?v=4
 categories:
+- game
 - utility
 color: '#444637'
 color_bg: '#444637'
 created: '2026-03-13T00:19:39Z'
-description: Drawing and text Chat Rooms.
+description: Online HD-2D/3D multiplayer world, island builder & drawing chat.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
@@ -19,12 +20,13 @@ downloads:
     url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.5/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
-image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png
-image_length: 37065
+image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/images/NoteRoom_05.04.26_04.21.54.546.png
+image_length: 12806
 layout: app
 license: other
 license_name: Other
 llm_generation: 'yes'
+priority: true
 qr:
   NoteRoom.cia: https://db.universal-team.net/assets/images/qr/noteroom-cia.png
 source: https://github.com/SprtnDio/NoteRoom
@@ -344,4 +346,10 @@ updated: '2026-11-08T23:40:01Z'
 version: v4.5
 version_title: '# ⚔️ NoteRoom v4.5 Alpha - Money Glitch Bugfix'
 ---
-NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
+NoteRoom is a real-time online multiplayer world, island builder, and drawing chatroom for the Nintendo 2DS/3DS.
+
+Features:
+- Explore a shared HD-2D Town Square, chat, and share live hand-drawn doodles
+- Build and link custom 88x88 & 19x19 islands via portals
+- Co-op monster raids, PvP duels, weapons & spells
+- Minigames (Prop Hunt, Casino, Fishing) and dynamic weather

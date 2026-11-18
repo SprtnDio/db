@@ -22,7 +22,7 @@ license: other
 license_name: Other
 llm_generation: 'no'
 source: https://github.com/nop90/POWDER-3DS
-stars: 19
+stars: 20
 systems:
 - 3DS
 title: POWDER-3DS
