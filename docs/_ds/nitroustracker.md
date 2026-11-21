@@ -177,7 +177,7 @@ prerelease:
   version: release/0.7.0b5
   version_title: NitrousTracker v0.7.0 beta 5
 source: https://codeberg.org/NitrousTracker/nitroustracker
-stars: 10
+stars: 11
 systems:
 - DS
 - 3DS
